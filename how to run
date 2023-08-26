@@ -1,0 +1,3 @@
+Go to client folder and type npm start and go to the server folder and type npm run devStart.
+Install the necessary dependencies.
+Go to firebase and create a new app and paste its api key in the firebase.js to get the otp verification.
