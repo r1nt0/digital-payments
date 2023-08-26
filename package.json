@@ -8,11 +8,7 @@
     "crypto-js": "^4.1.1",
     "file-saver": "^2.0.5",
     "firebase": "^8.6.2",
-    "formik": "^2.4.3",
     "node-rsa": "^1.1.1",
     "qrcode": "^1.5.3",
-    "react-hook-form": "^7.45.3",
-    "tesseract.js": "^4.1.1",
-    "yup": "^1.2.0"
   }
 }
