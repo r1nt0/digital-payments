@@ -1,0 +1,339 @@
+body {
+  
+    background: linear-gradient(to right, rgba(37, 117, 252, 1), rgba(106, 17, 203, 1))
+  }
+.mycontainer{
+    
+    width: 7cm;
+    background-color: rgb(230, 248, 247);
+    display:flex;
+    justify-content: center;
+    margin-top: 5cm;
+    margin-left: 17cm;
+    box-sizing: border-box;
+    border: #f10bde;
+    
+}
+.login-container{
+    text-align:center;
+    font-family: fantasy;
+    font-weight: 100;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(3, 74, 51);
+}
+.form-group{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: flexbox;
+    grid-gap: 3px;
+    
+}
+#username{
+    margin-top: 0.5cm;
+    background-color: azure;
+}
+#password{
+    margin-top: 0.4cm;
+    background-color: azure;
+}
+#login{
+   background-color: aquamarine; color: rgb(19, 60, 3);
+   font-family: fantasy;
+   margin-top: 1cm;
+  
+   padding: 10px 30px;
+   border-radius: 12px;
+}
+.new-user{
+    margin-top: 1cm;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    
+}
+#signup{
+    background-color: rgb(191, 227, 236);
+    padding: 7px 15px;
+    margin-left: 2cm;
+    font-family: fantasy;
+    color: #0d3b1b;
+}
+.container2{
+    height: 17cm;
+    width: 21cm;
+    background-color: azure;
+    margin-top: 1.5cm;
+    margin-left: 10cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+h2{
+    color: rgb(0, 40, 159);
+    text-align: center;
+    font-size: xx-large;
+}
+.form-group2{
+    margin-top: .4cm;
+    margin-left: .3cm;
+    text-align: justify;
+    color: rgb(95, 2, 100);
+   
+    font-family: fantasy;
+    justify-content: left;
+    align-items: center;
+}
+#submit{
+    margin-top: 2cm;
+    margin-left: 3cm;
+    background-color: rgb(165, 204, 191); color: rgb(3, 88, 94);
+    font-family: fantasy;
+    padding: 10px 30px;
+    border-radius: 12px;
+}
+label{
+    width: 100px;
+    display: inline-block;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+    height: 19.9cm;
+    width: 6cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 6px;
+
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+
+  .list-group-item.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+
+  .caro{
+    margin-top: 0.7cm;
+    width: 4cm;
+    position: absolute;
+    
+  }
+.logout{
+    margin-top: 10cm;
+    text-align: center;
+}
+.mytext{
+    position: absolute;
+    top: 3cm;
+    left: 12cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cb{
+    font-size: 3cm;
+    color: bisque;
+}
+#dc{
+    
+    font-size: 1cm;
+    color: antiquewhite;
+}
+.woman{
+    position: absolute;
+    top: 1cm;
+    right: 8cm;
+}
+.customers{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 20cm;
+    top: 6cm;
+    border: 3px solid #35ed57;
+    box-shadow: 9px 6px 4px #150f17;
+    padding: 7px 11px;
+    
+    
+}
+.transaction{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 20cm;
+    top: 10cm;
+    border: 3px solid #35ed57;
+    box-shadow: 9px 6px 4px #150f17;
+    padding: 7px 11px;
+}
+.background-container {
+    background-image: url('\pictures/Trading.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+.balancepage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    
+    color: rgb(72, 72, 53);
+    text-align: center;
+    font-size: x-large;
+    
+    
+}
+.transfer-container {
+    background-image: url('\pictures/transferimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+.transferpage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(11, 11, 0);
+    
+    color: #ffffe9;
+    text-align: center;
+    font-size: x-large;
+    
+    
+}
+.splitscreen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #aaa;
+}
+.leftpane{
+    
+    width: 50%;
+    background-color: azure;
+}
+.rightpane{
+    width: 50%;
+    
+    background-color: rgb(228, 240, 251);
+}
+.line{
+    border-bottom: 1px solid #100f0f;
+}
+.box{
+    
+    box-shadow: 2px 2px 2px #150f17;
+   
+    border: 2px solid #dedede;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    border-spacing: 10px;
+    justify-content: center;
+}
+.cell-spacing{
+    padding-right: 25px;
+}
+.notify{
+    display: flex;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    border-spacing: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dateof{
+    text-align: end;
+    float: right;
+  color: #aaa;
+  font-size: x-small;
+}
+
+.another{
+    margin-top: 0%;
+    background-color: #ddede2;
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    justify-content: center;
+}
+.butto{
+    background-color: rgb(253, 111, 111);
+    position: relative;
+    width: 5px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    
+   
+}
+.notificationspace{
+    margin-top: 15%;
+   
+}
+.user-page{
+    margin-top: 0%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    
+    justify-content: center;
+}
+.cell-spacing2{
+    padding-right: 50px;
+    
+}
+.search-page{
+    margin-top: 24%;
+    margin-left: 38%;
+    height: 40%;
+    width: 49%;
+    background-color: white;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.digi-button{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 90%;
+    padding: 10px 30px;
+    background-color: #100f0f;
+    color: #009d8b;
+    border-radius: 50px;
+}
+.digital-currency{
+    position: absolute;
+   
+    position: absolute;
+    background-color: #ddede2;
+    margin-left: 20%;
+    margin-top: 25%;
+}
+.error-text{
+    margin-left: 2cm;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

@@ -1,0 +1,107 @@
+body{
+    background-color: antiquewhite;
+}
+.split{
+    display: flex;
+    flex-direction: row;
+   
+    
+    font-family: fantasy;
+    background-color: #aaa;
+}
+.leftside{
+    text-align: center;
+    
+    background-color: rgb(255, 255, 255);
+    height: 19.9cm;
+    width: 15cm;
+    
+}
+.rightside{
+    width: 50%;
+    
+    background-color: rgb(228, 240, 251);
+}
+#myb{
+    margin-top: 10cm;
+    background-color: aquamarine;
+    padding: 10px 30px;
+}
+.chequecreation{
+    margin-top: 3%;
+    background-color: #ddede2;
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    justify-content: center;
+}
+.ChequeExtraction{
+    margin-top: 8%;
+    background-color: #a7e0ed;
+    position: absolute;
+    height: 40%;
+    width: 20%;
+    justify-content: center;
+    font-family: fantasy;
+}
+.middle{
+    margin-top: 35%;
+    margin-left: 6%;
+}
+.scrollstyle{
+    max-height: 330px;
+    overflow-x: scroll;
+    border: 1px solid #ccc;
+    
+}
+.currencypage{
+    margin-top: 3%;
+    background-color: #ddede2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+.blocksearchbar{
+    position: absolute;
+    padding:  7px 11px;
+    width: 20%;
+    
+    margin-left: 70%;
+}
+.rightarrange{
+    display: flex;
+  justify-content: space-between;
+}
+.right-aligned-item{
+    text-align: right;
+}
+.leftarrange{
+    flex: 1; /* Take up available space */
+  padding-right: 20px;
+}
+.right-column{
+    flex: 1; /* Take up available space */
+    padding-left: 20px;
+}
+.search-bar{
+    position: absolute;
+    margin-left: 37%;
+    
+        width: 50%;
+        margin-top: 20%;
+        
+        padding:  7px 11px;
+
+}
+.leftalign{
+    margin-left: 25%;
+
+}
