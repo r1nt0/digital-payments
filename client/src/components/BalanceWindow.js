@@ -4,20 +4,17 @@ import axios from "axios";
 
 
 function BalanceWindow() {
-  const [id, setId] = useState("");
+
   const [amount, setAmount] = useState("");
   const [password, setPassword] = useState("");
   const [balance, setBalance] = useState("");
-  const [email, setemail] = useState("");
   const [Dbalance, setDbalance] = useState("");
   const [message, setMessage] = useState("");
 
-  useEffect(() => {
-    const storedId = localStorage.getItem("id");
-    setId(storedId);
-    const myemail = localStorage.getItem("email");
-    setemail(myemail);
-  }, []);
+
+    const id = localStorage.getItem("id");
+    const email = localStorage.getItem("email");
+
 
   useEffect(() => {
     if (id) {
